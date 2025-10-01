@@ -53,7 +53,13 @@ function SEOHead() {
               "itemOffered": {
                 "@type": "Product",
                 "name": "Diwali Special Offers",
-                "category": "Home & Garden"
+                "category": "Home & Garden",
+                "offers": {
+                  "@type": "Offer",
+                  "availability": "https://schema.org/InStock",
+                  "priceCurrency": "INR",
+                  "description": "Special Diwali discounts on all home essentials"
+                }
               }
             }
           ]
