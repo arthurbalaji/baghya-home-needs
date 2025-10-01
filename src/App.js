@@ -58,7 +58,9 @@ function SEOHead() {
                   "@type": "Offer",
                   "availability": "https://schema.org/InStock",
                   "priceCurrency": "INR",
-                  "description": "Special Diwali discounts on all home essentials"
+                  "price": "1",
+                  "priceValidUntil": "2025-11-15",
+                  "description": "Special Diwali discounts on all home essentials starting from ₹1"
                 }
               }
             }
