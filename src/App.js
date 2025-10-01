@@ -44,27 +44,26 @@ function SEOHead() {
           "bestRating": "5",
           "worstRating": "1"
         },
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Home Essentials & Gifts",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Product",
-                "name": "Diwali Special Offers",
-                "category": "Home & Garden",
-                "offers": {
-                  "@type": "Offer",
-                  "availability": "https://schema.org/InStock",
-                  "priceCurrency": "INR",
-                  "price": "1",
-                  "priceValidUntil": "2025-11-15",
-                  "description": "Special Diwali discounts on all home essentials starting from ₹1"
-                }
-              }
+        "event": {
+          "@type": "Event",
+          "name": "Diwali Special Offers",
+          "description": "Special Diwali discounts on all home essentials at Baghya Home Needs",
+          "startDate": "2025-10-01",
+          "endDate": "2025-11-15",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "name": "Baghya Home Needs",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Near Koodal Flour Mill, Nagamalai Pudukottai",
+              "addressLocality": "Madurai",
+              "addressRegion": "Tamil Nadu",
+              "postalCode": "625019",
+              "addressCountry": "IN"
             }
-          ]
+          }
         }
       },
       {
