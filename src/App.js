@@ -227,6 +227,17 @@ export default function BaghyaHomeNeeds() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  // Track contact conversion when CTA buttons are clicked
+  const trackContactConversion = () => {
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'conversion', {
+        'send_to': 'AW-328295651/5Q-OCK7kgqUbEOPJxZwB',
+        'value': 1.0,
+        'currency': 'INR'
+      });
+    }
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -406,6 +417,7 @@ export default function BaghyaHomeNeeds() {
         href="https://wa.me/919566476768"
         target="_blank"
         rel="noopener noreferrer"
+        onClick={trackContactConversion}
         className="fixed bottom-8 right-8 z-50 bg-green-500 text-white p-5 rounded-full shadow-2xl hover:bg-green-600 hover:scale-110 transition-all duration-300 group animate-float"
         aria-label="Chat on WhatsApp - We're here to help!"
       >
@@ -436,6 +448,7 @@ export default function BaghyaHomeNeeds() {
             <div className="hidden md:flex items-center gap-6">
               <a 
                 href="tel:9566476768" 
+                onClick={trackContactConversion}
                 className="text-gray-700 hover:text-pink-600 transition-all duration-300 font-medium hover:scale-105 transform"
                 aria-label="Call us at 9566476768"
               >
@@ -454,6 +467,7 @@ export default function BaghyaHomeNeeds() {
               </a>
               <a 
                 href="mailto:baghyahomeneeds@gmail.com"
+                onClick={trackContactConversion}
                 className="text-gray-700 hover:text-pink-600 transition-all duration-300 font-medium hover:scale-105 transform"
                 aria-label="Email us"
               >
@@ -464,6 +478,7 @@ export default function BaghyaHomeNeeds() {
                 href="https://www.google.com/maps/dir//Near+koodal+flour+mill,nagamalai,+madurai-19,+Madurai,+Tamil+Nadu+625019/@9.9360047,77.9558188,12z/data=!4m8!4m7!1m0!1m5!1s0x3b00cfb83fa32d4b:0xae8ede0ed194e73c!2m2!1d78.0382207!2d9.9360148?authuser=2&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={trackContactConversion}
                 className="text-gray-700 hover:text-pink-600 transition-all duration-300 font-medium hover:scale-105 transform"
                 aria-label="Get directions to our store"
               >
@@ -492,7 +507,7 @@ export default function BaghyaHomeNeeds() {
               <a 
                 href="tel:9566476768" 
                 className="flex items-center gap-3 px-4 py-3 text-gray-700 hover:text-pink-600 hover:bg-pink-50 transition-all duration-300 rounded-lg mx-2"
-                onClick={() => setMobileMenuOpen(false)}
+                onClick={() => {setMobileMenuOpen(false); trackContactConversion();}}
                 aria-label="Call us at 9566476768"
               >
                 <Phone className="w-5 h-5" />
@@ -512,7 +527,7 @@ export default function BaghyaHomeNeeds() {
               <a 
                 href="mailto:baghyahomeneeds@gmail.com"
                 className="flex items-center gap-3 px-4 py-3 text-gray-700 hover:text-pink-600 hover:bg-pink-50 transition-all duration-300 rounded-lg mx-2"
-                onClick={() => setMobileMenuOpen(false)}
+                onClick={() => {setMobileMenuOpen(false); trackContactConversion();}}
                 aria-label="Email us"
               >
                 <Mail className="w-5 h-5" />
@@ -523,7 +538,7 @@ export default function BaghyaHomeNeeds() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-4 py-3 text-gray-700 hover:text-pink-600 hover:bg-pink-50 transition-all duration-300 rounded-lg mx-2"
-                onClick={() => setMobileMenuOpen(false)}
+                onClick={() => {setMobileMenuOpen(false); trackContactConversion();}}
                 aria-label="Get directions to our store"
               >
                 <MapPin className="w-5 h-5" />
@@ -566,6 +581,7 @@ export default function BaghyaHomeNeeds() {
                   href="https://wa.me/919566476768"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={trackContactConversion}
                   className="group bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white px-8 py-4 rounded-full font-semibold flex items-center gap-3 transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-xl btn-hover"
                   aria-label="WhatsApp Us - Quick Response Guaranteed"
                 >
@@ -576,6 +592,7 @@ export default function BaghyaHomeNeeds() {
                 </a>
                 <a
                   href="tel:9566476768"
+                  onClick={trackContactConversion}
                   className="bg-white hover:bg-gray-50 text-pink-600 border-2 border-pink-500 px-8 py-4 rounded-full font-semibold flex items-center gap-3 transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg btn-hover"
                   aria-label="Call Now - Immediate Assistance"
                 >
@@ -587,6 +604,7 @@ export default function BaghyaHomeNeeds() {
                   href="https://www.google.com/maps/dir//Near+koodal+flour+mill,nagamalai,+madurai-19,+Madurai,+Tamil+Nadu+625019/@9.9360047,77.9558188,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3b00cfb83fa32d4b:0xae8ede0ed194e73c!2m2!1d78.0382207!2d9.9360148?authuser=2&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={trackContactConversion}
                   className="bg-white hover:bg-gray-50 text-pink-600 border-2 border-pink-500 px-8 py-4 rounded-full font-semibold flex items-center gap-3 transition-all duration-300 hover:scale-105 shadow-lg"
                   aria-label="Google Map Directions"
                 >
@@ -752,6 +770,7 @@ export default function BaghyaHomeNeeds() {
                 href="https://wa.me/919566476768"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={trackContactConversion}
                 className="bg-white text-pink-600 hover:bg-pink-50 px-8 py-4 rounded-full font-bold flex items-center gap-3 transition-all duration-300 hover:scale-105 shadow-xl text-lg"
                 aria-label="WhatsApp"
               >
@@ -763,6 +782,7 @@ export default function BaghyaHomeNeeds() {
               
               <a
                 href="tel:9566476768"
+                onClick={trackContactConversion}
                 className="bg-white text-pink-600 hover:bg-pink-50 px-8 py-4 rounded-full font-bold flex items-center gap-3 transition-all duration-300 hover:scale-105 shadow-xl text-lg"
                 aria-label="Call"
               >
@@ -772,6 +792,7 @@ export default function BaghyaHomeNeeds() {
               
               <a
                 href="mailto:baghyahomeneeds@gmail.com"
+                onClick={trackContactConversion}
                 className="bg-white text-pink-600 hover:bg-pink-50 px-8 py-4 rounded-full font-bold flex items-center gap-3 transition-all duration-300 hover:scale-105 shadow-xl text-lg"
                 aria-label="Email"
               >
@@ -794,6 +815,7 @@ export default function BaghyaHomeNeeds() {
                 href="https://www.google.com/maps/dir//Near+koodal+flour+mill,nagamalai,+madurai-19,+Madurai,+Tamil+Nadu+625019/@9.9360047,77.9558188,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3b00cfb83fa32d4b:0xae8ede0ed194e73c!2m2!1d78.0382207!2d9.9360148?authuser=2&entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={trackContactConversion}
                 className="bg-white text-pink-600 hover:bg-pink-50 px-8 py-4 rounded-full font-bold flex items-center gap-3 transition-all duration-300 hover:scale-105 shadow-xl text-lg"
                 aria-label="Directions"
               >
