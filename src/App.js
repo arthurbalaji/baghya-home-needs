@@ -12,7 +12,7 @@ function SEOHead() {
         "name": "Baghya Home Needs",
         "description": "Your trusted neighborhood store in Madurai offering quality home essentials, gifts, toys, stationery, cookware, and more at unbeatable prices.",
         "url": "https://baghyahomeneeds.site/",
-        "telephone": "+91-9566476768",
+        "telephone": "+91-9344398253",
         "email": "baghyahomeneeds@gmail.com",
         "address": {
           "@type": "PostalAddress",
@@ -35,7 +35,7 @@ function SEOHead() {
         "logo": "https://baghyahomeneeds.site/logo.png",
         "sameAs": [
           "https://www.instagram.com/baghyahomeneeds4/",
-          "https://wa.me/919566476768"
+          "https://wa.me/919344398253"
         ],
         "aggregateRating": {
           "@type": "AggregateRating",
@@ -80,7 +80,7 @@ function SEOHead() {
         "logo": "https://baghyahomeneeds.site/logo.png",
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+91-9566476768",
+          "telephone": "+91-9344398253",
           "contactType": "customer service",
           "availableLanguage": ["English", "Tamil", "Hindi"],
           "areaServed": "Madurai"
@@ -102,7 +102,7 @@ function SEOHead() {
       {/* Primary Meta Tags */}
       <title>Baghya Home Needs | #1 Home Essentials Store in Madurai | Diwali Special Offers</title>
       <meta name="title" content="Baghya Home Needs | #1 Home Essentials Store in Madurai | Diwali Special Offers" />
-      <meta name="description" content="🏆 Madurai's most trusted home essentials store! 🎉 Special Diwali offers on plastics, toys, stationery, cookware & gifts. ⭐ 4.8★ rated | 📍 Nagamalai | 📞 9566476768 | 🚚 Best prices guaranteed!" />
+      <meta name="description" content="🏆 Madurai's most trusted home essentials store! 🎉 Special Diwali offers on plastics, toys, stationery, cookware & gifts. ⭐ 4.8★ rated | 📍 Nagamalai | 📞 9344398253 | 🚚 Best prices guaranteed!" />
       <meta name="keywords" content="Baghya Home Needs Madurai, home essentials Madurai, Diwali offers Madurai, plastic containers Madurai, toys store Madurai, stationery shop Madurai, cookware Madurai, gifts Madurai, Nagamalai shopping, home needs store, quality products Madurai, best prices home essentials, Tamil Nadu home store" />
       <meta name="author" content="Baghya Home Needs" />
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -138,7 +138,7 @@ function SEOHead() {
       <meta property="business:contact_data:region" content="Tamil Nadu" />
       <meta property="business:contact_data:postal_code" content="625019" />
       <meta property="business:contact_data:country_name" content="India" />
-      <meta property="business:contact_data:phone_number" content="+91-9566476768" />
+      <meta property="business:contact_data:phone_number" content="+91-9344398253" />
       <meta property="business:contact_data:email" content="baghyahomeneeds@gmail.com" />
       
       {/* Twitter */}
@@ -315,7 +315,7 @@ export default function BaghyaHomeNeeds() {
           "name": "Where is Baghya Home Needs located in Madurai?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We are located at Near Koodal Flour Mill, Nagamalai Pudukottai, Madurai, Tamil Nadu 625019. You can easily find us using Google Maps or call us at 9566476768 for directions."
+            "text": "We are located at Near Koodal Flour Mill, Nagamalai Pudukottai, Madurai, Tamil Nadu 625019. You can easily find us using Google Maps or call us at 9344398253 for directions."
           }
         },
         {
@@ -323,7 +323,7 @@ export default function BaghyaHomeNeeds() {
           "name": "Do you offer Diwali special discounts?",
           "acceptedAnswer": {
             "@type": "Answer", 
-            "text": "Yes! We have special Diwali offers running on all our products. Visit our store or contact us on WhatsApp at 9566476768 to know about current discounts and deals."
+            "text": "Yes! We have special Diwali offers running on all our products. Visit our store or contact us on WhatsApp at 9344398253 to know about current discounts and deals."
           }
         },
         {
@@ -331,7 +331,7 @@ export default function BaghyaHomeNeeds() {
           "name": "What are your store timings?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We are open Monday to Sunday from 9:00 AM to 9:00 PM. You can visit us anytime during these hours or call us at 9566476768."
+            "text": "We are open Monday to Sunday from 9:00 AM to 9:00 PM. You can visit us anytime during these hours or call us at 9344398253."
           }
         }
       ]
@@ -414,7 +414,7 @@ export default function BaghyaHomeNeeds() {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/919566476768"
+        href="https://wa.me/919344398253"
         target="_blank"
         rel="noopener noreferrer"
         onClick={trackContactConversion}
@@ -447,10 +447,10 @@ export default function BaghyaHomeNeeds() {
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-6">
               <a 
-                href="tel:9566476768" 
+                href="tel:9344398253" 
                 onClick={trackContactConversion}
                 className="text-gray-700 hover:text-pink-600 transition-all duration-300 font-medium hover:scale-105 transform"
-                aria-label="Call us at 9566476768"
+                aria-label="Call us at 9344398253"
               >
                 <Phone className="w-5 h-5 inline mr-2" />
                 Call Us
@@ -505,10 +505,10 @@ export default function BaghyaHomeNeeds() {
           {mobileMenuOpen && (
             <div className="md:hidden bg-white border-t border-gray-200 py-4 space-y-2">
               <a 
-                href="tel:9566476768" 
+                href="tel:9344398253" 
                 className="flex items-center gap-3 px-4 py-3 text-gray-700 hover:text-pink-600 hover:bg-pink-50 transition-all duration-300 rounded-lg mx-2"
                 onClick={() => {setMobileMenuOpen(false); trackContactConversion();}}
-                aria-label="Call us at 9566476768"
+                aria-label="Call us at 9344398253"
               >
                 <Phone className="w-5 h-5" />
                 Call Us
@@ -578,7 +578,7 @@ export default function BaghyaHomeNeeds() {
 
               <div className="flex flex-wrap justify-center gap-4 mb-12">
                 <a
-                  href="https://wa.me/919566476768"
+                  href="https://wa.me/919344398253"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={trackContactConversion}
@@ -591,7 +591,7 @@ export default function BaghyaHomeNeeds() {
                   <span>WhatsApp Us</span>
                 </a>
                 <a
-                  href="tel:9566476768"
+                  href="tel:9344398253"
                   onClick={trackContactConversion}
                   className="bg-white hover:bg-gray-50 text-pink-600 border-2 border-pink-500 px-8 py-4 rounded-full font-semibold flex items-center gap-3 transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg btn-hover"
                   aria-label="Call Now - Immediate Assistance"
@@ -767,7 +767,7 @@ export default function BaghyaHomeNeeds() {
 
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <a
-                href="https://wa.me/919566476768"
+                href="https://wa.me/919344398253"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={trackContactConversion}
@@ -781,7 +781,7 @@ export default function BaghyaHomeNeeds() {
               </a>
               
               <a
-                href="tel:9566476768"
+                href="tel:9344398253"
                 onClick={trackContactConversion}
                 className="bg-white text-pink-600 hover:bg-pink-50 px-8 py-4 rounded-full font-bold flex items-center gap-3 transition-all duration-300 hover:scale-105 shadow-xl text-lg"
                 aria-label="Call"
@@ -891,8 +891,8 @@ export default function BaghyaHomeNeeds() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-pink-500 flex-shrink-0" />
-                  <a href="tel:9566476768" className="hover:text-pink-400 transition-colors">
-                    9566476768
+                  <a href="tel:9344398253" className="hover:text-pink-400 transition-colors">
+                    9344398253
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
