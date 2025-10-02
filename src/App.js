@@ -598,6 +598,13 @@ export default function BaghyaHomeNeeds() {
             "description": "High-quality storage containers, buckets, mugs and kitchen organizers",
             "category": "Home & Garden > Kitchen & Dining > Food Storage",
             "brand": "Baghya Home Needs",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "250",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
             "offers": {
               "@type": "AggregateOffer",
               "priceCurrency": "INR",
@@ -616,6 +623,13 @@ export default function BaghyaHomeNeeds() {
             "description": "Fun and educational toys for children of all ages",
             "category": "Toys & Games > Educational Toys",
             "brand": "Baghya Home Needs",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "180",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
             "offers": {
               "@type": "AggregateOffer",
               "priceCurrency": "INR", 
@@ -634,6 +648,13 @@ export default function BaghyaHomeNeeds() {
             "description": "Complete range of school and office stationery supplies",
             "category": "Office Products > Office & School Supplies",
             "brand": "Baghya Home Needs",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.7",
+              "reviewCount": "320",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
             "offers": {
               "@type": "AggregateOffer",
               "priceCurrency": "INR",
@@ -652,6 +673,13 @@ export default function BaghyaHomeNeeds() {
             "description": "Stainless steel, iron and high-quality kitchen utensils",
             "category": "Home & Garden > Kitchen & Dining > Cookware",
             "brand": "Baghya Home Needs",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "150",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
             "offers": {
               "@type": "AggregateOffer",
               "priceCurrency": "INR",
@@ -670,6 +698,13 @@ export default function BaghyaHomeNeeds() {
             "description": "Perfect gift items for every occasion and celebration", 
             "category": "Home & Garden > Decor > Decorative Objects",
             "brand": "Baghya Home Needs",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "200",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
             "offers": {
               "@type": "AggregateOffer",
               "priceCurrency": "INR",
@@ -687,7 +722,14 @@ export default function BaghyaHomeNeeds() {
             "name": "Fancy Accessories",
             "description": "Chains, bangles, earrings and fashion accessories",
             "category": "Clothing, Shoes & Jewelry > Jewelry > Fashion",
-            "brand": "Baghya Home Needs", 
+            "brand": "Baghya Home Needs",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.6",
+              "reviewCount": "95",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
             "offers": {
               "@type": "AggregateOffer",
               "priceCurrency": "INR",
