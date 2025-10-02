@@ -1,12 +1,48 @@
-# Robots.txt for Baghya Home Needs
+# Enhanced Robots.txt for Baghya Home Needs - Premium Home Essentials Store Madurai
 # https://www.robotstxt.org/robotstxt.html
+# Last updated: October 2025
 
+# Allow all search engines to crawl
 User-agent: *
 Allow: /
+Allow: /static/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.webp
+Allow: /manifest.json
+Allow: /sitemap.xml
+
+# Block unnecessary paths
 Disallow: /private/
 Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /build/
+Disallow: /node_modules/
+Disallow: /*.php
+Disallow: /*.asp
+Disallow: /404/
+Disallow: /error/
 
 # Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Special directives for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot  
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
 Crawl-delay: 1
 
 # Sitemap location
